@@ -5,29 +5,29 @@ Se incluyen los scripts utilizados para el desarrollo y análisis de datos del T
 Se ha utilizado para el paquete Seurat en R.
 
 ## Contenido
-###1_Carga_datos_QC
+### 1_Carga_datos_QC
   - Se cargan matrices de conteo de la serie GSE230295) descargadas de GEO
   - Carga y preprocesamiento de los datos. Control de calidad. Eliminación de dobletes
     
-###2_Demultiplexado
+### 2_Demultiplexado
   - Asignación muestra y paciente
   - Incorporación del tejido y momento clínico
     
-###3_Integración_clustering
+### 3_Integración_clustering
   - Normalización, selección de genes variables, escalado y PCA por librería
   - Integración de las 6 librerías (RPCA) para corregir el efecto de lote
   - Clustering
   - Proyección UMAP
     
-###4_Anotación
+### 4_Anotación
   -  Identificación de genes marcadores por clúster (FindAllMarkers)
   -  Construcción de un panel de marcadores de ARN combinado con la expresión de proteína de superficie
   -  Anotación manual la identidad de cada clúster
     
-###5_Anotación_singleR
+### 5_Anotación_singleR
   -Anotacion celular automática con SingleR, usando dos referencias de celldex: NovershternHematopoieticData y HumanPrimaryCellAtlasData  
 
-###6_Comparaciones
+### 6_Comparaciones
   - Comparación de la composición de tipos celulares entre médula ósea y sangre periférica
   - Comparación entre diagnóstico y post-tratamiento
   - Comparación intraindividuo
