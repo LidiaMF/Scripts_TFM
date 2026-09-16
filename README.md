@@ -1,4 +1,4 @@
-# TFM:Análisis integrado de la expresión génica y de proteínas de superficie a nivel unicelular en muestras de médula ósea y sangre periférica de pacientes con LLA-B
+# TFM:Análisis integrado de la expresión génica y de proteínas de superficie a nivel unicelular en muestras de médula ósea y sangre periférica de pacientes con leucemia linfoblástica aguda de tipo B
 Autora: Lidia Martínez Fernández de Sevilla
 ## Descripción
 Se incluyen los scripts utilizados para el desarrollo y análisis de datos del TFM titulado: Análisis integrado de la expresión génica y de proteínas de superficie a nivel unicelular en muestras de médula ósea y sangre periférica de pacientes con LLA-B. 
